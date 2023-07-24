@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8413314129C19B820069D2D4 /* ZSNAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413314029C19B820069D2D4 /* ZSNAudioViewController.m */; };
+		842D618728D1859700320665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D618628D1859700320665 /* AppDelegate.m */; };
+		842D619228D1859700320665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842D619128D1859700320665 /* Assets.xcassets */; };
+		842D619528D1859700320665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D619328D1859700320665 /* LaunchScreen.storyboard */; };
+		842D619828D1859700320665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D619728D1859700320665 /* main.m */; };
+		842D61A028D186D000320665 /* ZSNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D619F28D186D000320665 /* ZSNFirstViewController.m */; };
+		842D61A428D187A800320665 /* ZSNLibsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D61A328D187A800320665 /* ZSNLibsTestViewController.m */; };
+		842D61A728D1AB7300320665 /* ZSNVideoBroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D61A628D1AB7300320665 /* ZSNVideoBroadcastViewController.m */; };
+		8434183728FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434183628FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.m */; };
+		8440339328E3324600F07122 /* ZSNJoinMultiChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440339228E3324600F07122 /* ZSNJoinMultiChannelViewController.m */; };
+		844B6E8029C9AEBA004FD400 /* ZSNSSHeChangyiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B6E7F29C9AEBA004FD400 /* ZSNSSHeChangyiViewController.m */; };
+		844B6E8329C9AECC004FD400 /* ZSNSSHeChangerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B6E8229C9AECC004FD400 /* ZSNSSHeChangerViewController.m */; };
+		8455F9B32A0B776C004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9982A0B7755004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework */; };
+		8455F9B42A0B776C004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9982A0B7755004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9B52A0B776D004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98F2A0B7755004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework */; };
+		8455F9B62A0B776D004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98F2A0B7755004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9B72A0B776F004E1BC1 /* AgoraAudioBeautyExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99A2A0B7755004E1BC1 /* AgoraAudioBeautyExtension.xcframework */; };
+		8455F9B82A0B776F004E1BC1 /* AgoraAudioBeautyExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99A2A0B7755004E1BC1 /* AgoraAudioBeautyExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9B92A0B7770004E1BC1 /* AgoraClearVisionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98C2A0B7755004E1BC1 /* AgoraClearVisionExtension.xcframework */; };
+		8455F9BA2A0B7770004E1BC1 /* AgoraClearVisionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98C2A0B7755004E1BC1 /* AgoraClearVisionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9BB2A0B7772004E1BC1 /* AgoraContentInspectExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9952A0B7755004E1BC1 /* AgoraContentInspectExtension.xcframework */; };
+		8455F9BC2A0B7772004E1BC1 /* AgoraContentInspectExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9952A0B7755004E1BC1 /* AgoraContentInspectExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9BD2A0B7773004E1BC1 /* AgoraDav1d.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9962A0B7755004E1BC1 /* AgoraDav1d.xcframework */; };
+		8455F9BE2A0B7773004E1BC1 /* AgoraDav1d.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9962A0B7755004E1BC1 /* AgoraDav1d.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9BF2A0B7775004E1BC1 /* AgoraDrmLoaderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9902A0B7755004E1BC1 /* AgoraDrmLoaderExtension.xcframework */; };
+		8455F9C02A0B7775004E1BC1 /* AgoraDrmLoaderExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9902A0B7755004E1BC1 /* AgoraDrmLoaderExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9C12A0B7777004E1BC1 /* AgoraFaceDetectionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9992A0B7755004E1BC1 /* AgoraFaceDetectionExtension.xcframework */; };
+		8455F9C22A0B7777004E1BC1 /* AgoraFaceDetectionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9992A0B7755004E1BC1 /* AgoraFaceDetectionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9C32A0B7778004E1BC1 /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9942A0B7755004E1BC1 /* Agorafdkaac.xcframework */; };
+		8455F9C42A0B7779004E1BC1 /* Agorafdkaac.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9942A0B7755004E1BC1 /* Agorafdkaac.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9C52A0B777A004E1BC1 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9912A0B7755004E1BC1 /* Agoraffmpeg.xcframework */; };
+		8455F9C62A0B777A004E1BC1 /* Agoraffmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9912A0B7755004E1BC1 /* Agoraffmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9C72A0B777C004E1BC1 /* AgoraReplayKitExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9972A0B7755004E1BC1 /* AgoraReplayKitExtension.xcframework */; };
+		8455F9C82A0B777C004E1BC1 /* AgoraReplayKitExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9972A0B7755004E1BC1 /* AgoraReplayKitExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9C92A0B777E004E1BC1 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98D2A0B7755004E1BC1 /* AgoraRtcKit.xcframework */; };
+		8455F9CA2A0B777E004E1BC1 /* AgoraRtcKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98D2A0B7755004E1BC1 /* AgoraRtcKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9CB2A0B7780004E1BC1 /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98B2A0B7755004E1BC1 /* AgoraSoundTouch.xcframework */; };
+		8455F9CC2A0B7780004E1BC1 /* AgoraSoundTouch.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98B2A0B7755004E1BC1 /* AgoraSoundTouch.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9CD2A0B7781004E1BC1 /* AgoraSpatialAudioExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99B2A0B7755004E1BC1 /* AgoraSpatialAudioExtension.xcframework */; };
+		8455F9CE2A0B7781004E1BC1 /* AgoraSpatialAudioExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99B2A0B7755004E1BC1 /* AgoraSpatialAudioExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9CF2A0B7783004E1BC1 /* AgoraVideoDecoderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99E2A0B7755004E1BC1 /* AgoraVideoDecoderExtension.xcframework */; };
+		8455F9D02A0B7783004E1BC1 /* AgoraVideoDecoderExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99E2A0B7755004E1BC1 /* AgoraVideoDecoderExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9D12A0B7785004E1BC1 /* AgoraVideoEncoderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9922A0B7755004E1BC1 /* AgoraVideoEncoderExtension.xcframework */; };
+		8455F9D22A0B7785004E1BC1 /* AgoraVideoEncoderExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9922A0B7755004E1BC1 /* AgoraVideoEncoderExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9D32A0B7787004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99C2A0B7755004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework */; };
+		8455F9D42A0B7787004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99C2A0B7755004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9D52A0B7788004E1BC1 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99D2A0B7755004E1BC1 /* AgoraVideoSegmentationExtension.xcframework */; };
+		8455F9D62A0B7789004E1BC1 /* AgoraVideoSegmentationExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F99D2A0B7755004E1BC1 /* AgoraVideoSegmentationExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9D72A0B778A004E1BC1 /* video_dec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9932A0B7755004E1BC1 /* video_dec.xcframework */; };
+		8455F9D82A0B778A004E1BC1 /* video_dec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F9932A0B7755004E1BC1 /* video_dec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8455F9D92A0B778C004E1BC1 /* video_enc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98E2A0B7755004E1BC1 /* video_enc.xcframework */; };
+		8455F9DA2A0B778C004E1BC1 /* video_enc.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8455F98E2A0B7755004E1BC1 /* video_enc.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8479BF1729E03493003200ED /* ZSNAPILiZiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479BF1629E03493003200ED /* ZSNAPILiZiViewController.m */; };
+		847B90E52A0E367400360178 /* ZSNGaoQingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847B90E42A0E367400360178 /* ZSNGaoQingViewController.m */; };
+		849362C52A0394F10075E2D7 /* daojiangxing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 849362C42A0394F10075E2D7 /* daojiangxing.mp3 */; };
+		849362C82A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 849362C72A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.m */; };
+		8498198C290FB10D00ED91A8 /* ZSNResourceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498198B290FB10D00ED91A8 /* ZSNResourceTestViewController.m */; };
+		8498198E290FBAF300ED91A8 /* longlidiansi_lpb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8498198D290FBAF300ED91A8 /* longlidiansi_lpb.wav */; };
+		84A4375929388CB800798950 /* ZSNBoxingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4375829388CB800798950 /* ZSNBoxingView.m */; };
+		84C21D9D2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C21D9C2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.m */; };
+		84C21DA02935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C21D9F2935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.m */; };
+		84C21DA3293746F4002C10C4 /* ZSNAudioVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C21DA2293746F4002C10C4 /* ZSNAudioVideoViewController.m */; };
+		84C44F4D28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C44F4C28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.m */; };
+		84CD9CA6290AE0A400C63ED9 /* ZSNAIAECAINSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD9CA5290AE0A400C63ED9 /* ZSNAIAECAINSViewController.m */; };
+		84F4D4C42A1CB5A500D07074 /* ZSNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4D4C32A1CB5A500D07074 /* ZSNTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8497E43B28D47B080007A650 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8455F9C82A0B777C004E1BC1 /* AgoraReplayKitExtension.xcframework in Embed Frameworks */,
+				8455F9B82A0B776F004E1BC1 /* AgoraAudioBeautyExtension.xcframework in Embed Frameworks */,
+				8455F9D02A0B7783004E1BC1 /* AgoraVideoDecoderExtension.xcframework in Embed Frameworks */,
+				8455F9C02A0B7775004E1BC1 /* AgoraDrmLoaderExtension.xcframework in Embed Frameworks */,
+				8455F9BE2A0B7773004E1BC1 /* AgoraDav1d.xcframework in Embed Frameworks */,
+				8455F9C22A0B7777004E1BC1 /* AgoraFaceDetectionExtension.xcframework in Embed Frameworks */,
+				8455F9CA2A0B777E004E1BC1 /* AgoraRtcKit.xcframework in Embed Frameworks */,
+				8455F9C42A0B7779004E1BC1 /* Agorafdkaac.xcframework in Embed Frameworks */,
+				8455F9DA2A0B778C004E1BC1 /* video_enc.xcframework in Embed Frameworks */,
+				8455F9CC2A0B7780004E1BC1 /* AgoraSoundTouch.xcframework in Embed Frameworks */,
+				8455F9B42A0B776C004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework in Embed Frameworks */,
+				8455F9D62A0B7789004E1BC1 /* AgoraVideoSegmentationExtension.xcframework in Embed Frameworks */,
+				8455F9D82A0B778A004E1BC1 /* video_dec.xcframework in Embed Frameworks */,
+				8455F9BA2A0B7770004E1BC1 /* AgoraClearVisionExtension.xcframework in Embed Frameworks */,
+				8455F9D42A0B7787004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework in Embed Frameworks */,
+				8455F9D22A0B7785004E1BC1 /* AgoraVideoEncoderExtension.xcframework in Embed Frameworks */,
+				8455F9CE2A0B7781004E1BC1 /* AgoraSpatialAudioExtension.xcframework in Embed Frameworks */,
+				8455F9BC2A0B7772004E1BC1 /* AgoraContentInspectExtension.xcframework in Embed Frameworks */,
+				8455F9B62A0B776D004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework in Embed Frameworks */,
+				8455F9C62A0B777A004E1BC1 /* Agoraffmpeg.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8413313F29C19B820069D2D4 /* ZSNAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNAudioViewController.h; sourceTree = "<group>"; };
+		8413314029C19B820069D2D4 /* ZSNAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNAudioViewController.m; sourceTree = "<group>"; };
+		842D618228D1859600320665 /* DemoAPIOCZhaosn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAPIOCZhaosn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842D618528D1859700320665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842D618628D1859700320665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842D619128D1859700320665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842D619428D1859700320665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842D619628D1859700320665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842D619728D1859700320665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842D619E28D186D000320665 /* ZSNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNFirstViewController.h; sourceTree = "<group>"; };
+		842D619F28D186D000320665 /* ZSNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNFirstViewController.m; sourceTree = "<group>"; };
+		842D61A228D187A800320665 /* ZSNLibsTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNLibsTestViewController.h; sourceTree = "<group>"; };
+		842D61A328D187A800320665 /* ZSNLibsTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNLibsTestViewController.m; sourceTree = "<group>"; };
+		842D61A528D1AB7300320665 /* ZSNVideoBroadcastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNVideoBroadcastViewController.h; sourceTree = "<group>"; };
+		842D61A628D1AB7300320665 /* ZSNVideoBroadcastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNVideoBroadcastViewController.m; sourceTree = "<group>"; };
+		8434183528FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNDaXiaoLiuViewController.h; sourceTree = "<group>"; };
+		8434183628FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNDaXiaoLiuViewController.m; sourceTree = "<group>"; };
+		8440339128E3324600F07122 /* ZSNJoinMultiChannelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNJoinMultiChannelViewController.h; sourceTree = "<group>"; };
+		8440339228E3324600F07122 /* ZSNJoinMultiChannelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNJoinMultiChannelViewController.m; sourceTree = "<group>"; };
+		844B6E7E29C9AEBA004FD400 /* ZSNSSHeChangyiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNSSHeChangyiViewController.h; sourceTree = "<group>"; };
+		844B6E7F29C9AEBA004FD400 /* ZSNSSHeChangyiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNSSHeChangyiViewController.m; sourceTree = "<group>"; };
+		844B6E8129C9AECC004FD400 /* ZSNSSHeChangerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNSSHeChangerViewController.h; sourceTree = "<group>"; };
+		844B6E8229C9AECC004FD400 /* ZSNSSHeChangerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNSSHeChangerViewController.m; sourceTree = "<group>"; };
+		8455F98B2A0B7755004E1BC1 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		8455F98C2A0B7755004E1BC1 /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		8455F98D2A0B7755004E1BC1 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		8455F98E2A0B7755004E1BC1 /* video_enc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = video_enc.xcframework; sourceTree = "<group>"; };
+		8455F98F2A0B7755004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		8455F9902A0B7755004E1BC1 /* AgoraDrmLoaderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDrmLoaderExtension.xcframework; sourceTree = "<group>"; };
+		8455F9912A0B7755004E1BC1 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		8455F9922A0B7755004E1BC1 /* AgoraVideoEncoderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoEncoderExtension.xcframework; sourceTree = "<group>"; };
+		8455F9932A0B7755004E1BC1 /* video_dec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = video_dec.xcframework; sourceTree = "<group>"; };
+		8455F9942A0B7755004E1BC1 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		8455F9952A0B7755004E1BC1 /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		8455F9962A0B7755004E1BC1 /* AgoraDav1d.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDav1d.xcframework; sourceTree = "<group>"; };
+		8455F9972A0B7755004E1BC1 /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		8455F9982A0B7755004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
+		8455F9992A0B7755004E1BC1 /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
+		8455F99A2A0B7755004E1BC1 /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		8455F99B2A0B7755004E1BC1 /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		8455F99C2A0B7755004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
+		8455F99D2A0B7755004E1BC1 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		8455F99E2A0B7755004E1BC1 /* AgoraVideoDecoderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoDecoderExtension.xcframework; sourceTree = "<group>"; };
+		8479BF1529E03493003200ED /* ZSNAPILiZiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNAPILiZiViewController.h; sourceTree = "<group>"; };
+		8479BF1629E03493003200ED /* ZSNAPILiZiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNAPILiZiViewController.m; sourceTree = "<group>"; };
+		847B90E32A0E367400360178 /* ZSNGaoQingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNGaoQingViewController.h; sourceTree = "<group>"; };
+		847B90E42A0E367400360178 /* ZSNGaoQingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNGaoQingViewController.m; sourceTree = "<group>"; };
+		848E88FF28DC5E87006F6A45 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		849362C42A0394F10075E2D7 /* daojiangxing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daojiangxing.mp3; sourceTree = "<group>"; };
+		849362C62A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNMPMusicPlayerVC.h; sourceTree = "<group>"; };
+		849362C72A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNMPMusicPlayerVC.m; sourceTree = "<group>"; };
+		8498198A290FB10D00ED91A8 /* ZSNResourceTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNResourceTestViewController.h; sourceTree = "<group>"; };
+		8498198B290FB10D00ED91A8 /* ZSNResourceTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNResourceTestViewController.m; sourceTree = "<group>"; };
+		8498198D290FBAF300ED91A8 /* longlidiansi_lpb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = longlidiansi_lpb.wav; sourceTree = "<group>"; };
+		84A4375729388CB800798950 /* ZSNBoxingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNBoxingView.h; sourceTree = "<group>"; };
+		84A4375829388CB800798950 /* ZSNBoxingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNBoxingView.m; sourceTree = "<group>"; };
+		84C21D9B2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNChooseAudioProfileVC.h; sourceTree = "<group>"; };
+		84C21D9C2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNChooseAudioProfileVC.m; sourceTree = "<group>"; };
+		84C21D9E2935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNAudioVerticalAnimationViewController.h; sourceTree = "<group>"; };
+		84C21D9F2935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNAudioVerticalAnimationViewController.m; sourceTree = "<group>"; };
+		84C21DA1293746F4002C10C4 /* ZSNAudioVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNAudioVideoViewController.h; sourceTree = "<group>"; };
+		84C21DA2293746F4002C10C4 /* ZSNAudioVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNAudioVideoViewController.m; sourceTree = "<group>"; };
+		84C44F4B28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNMultiChannelViewController.h; sourceTree = "<group>"; };
+		84C44F4C28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNMultiChannelViewController.m; sourceTree = "<group>"; };
+		84CD9CA4290AE0A400C63ED9 /* ZSNAIAECAINSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNAIAECAINSViewController.h; sourceTree = "<group>"; };
+		84CD9CA5290AE0A400C63ED9 /* ZSNAIAECAINSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNAIAECAINSViewController.m; sourceTree = "<group>"; };
+		84F4D4C22A1CB5A500D07074 /* ZSNTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNTestViewController.h; sourceTree = "<group>"; };
+		84F4D4C32A1CB5A500D07074 /* ZSNTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842D617F28D1859600320665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455F9C72A0B777C004E1BC1 /* AgoraReplayKitExtension.xcframework in Frameworks */,
+				8455F9BF2A0B7775004E1BC1 /* AgoraDrmLoaderExtension.xcframework in Frameworks */,
+				8455F9BB2A0B7772004E1BC1 /* AgoraContentInspectExtension.xcframework in Frameworks */,
+				8455F9C32A0B7778004E1BC1 /* Agorafdkaac.xcframework in Frameworks */,
+				8455F9CB2A0B7780004E1BC1 /* AgoraSoundTouch.xcframework in Frameworks */,
+				8455F9D72A0B778A004E1BC1 /* video_dec.xcframework in Frameworks */,
+				8455F9B92A0B7770004E1BC1 /* AgoraClearVisionExtension.xcframework in Frameworks */,
+				8455F9C52A0B777A004E1BC1 /* Agoraffmpeg.xcframework in Frameworks */,
+				8455F9D92A0B778C004E1BC1 /* video_enc.xcframework in Frameworks */,
+				8455F9CD2A0B7781004E1BC1 /* AgoraSpatialAudioExtension.xcframework in Frameworks */,
+				8455F9B32A0B776C004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */,
+				8455F9B52A0B776D004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */,
+				8455F9B72A0B776F004E1BC1 /* AgoraAudioBeautyExtension.xcframework in Frameworks */,
+				8455F9D12A0B7785004E1BC1 /* AgoraVideoEncoderExtension.xcframework in Frameworks */,
+				8455F9D52A0B7788004E1BC1 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */,
+				8455F9C92A0B777E004E1BC1 /* AgoraRtcKit.xcframework in Frameworks */,
+				8455F9CF2A0B7783004E1BC1 /* AgoraVideoDecoderExtension.xcframework in Frameworks */,
+				8455F9BD2A0B7773004E1BC1 /* AgoraDav1d.xcframework in Frameworks */,
+				8455F9D32A0B7787004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */,
+				8455F9C12A0B7777004E1BC1 /* AgoraFaceDetectionExtension.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842D617928D1859600320665 = {
+			isa = PBXGroup;
+			children = (
+				842D618428D1859600320665 /* DemoAPIOCZhaosn */,
+				842D618328D1859600320665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842D618328D1859600320665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842D618228D1859600320665 /* DemoAPIOCZhaosn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842D618428D1859600320665 /* DemoAPIOCZhaosn */ = {
+			isa = PBXGroup;
+			children = (
+				84FA2E53290C395F004D84EE /* ZSNResource */,
+				842D61A128D1877A00320665 /* ZSNLibs */,
+				842D618528D1859700320665 /* AppDelegate.h */,
+				842D618628D1859700320665 /* AppDelegate.m */,
+				842D619128D1859700320665 /* Assets.xcassets */,
+				842D619328D1859700320665 /* LaunchScreen.storyboard */,
+				842D619628D1859700320665 /* Info.plist */,
+				842D619728D1859700320665 /* main.m */,
+				842D619E28D186D000320665 /* ZSNFirstViewController.h */,
+				842D619F28D186D000320665 /* ZSNFirstViewController.m */,
+				842D61A528D1AB7300320665 /* ZSNVideoBroadcastViewController.h */,
+				842D61A628D1AB7300320665 /* ZSNVideoBroadcastViewController.m */,
+				848E88FF28DC5E87006F6A45 /* PrefixHeader.pch */,
+				8440339128E3324600F07122 /* ZSNJoinMultiChannelViewController.h */,
+				8440339228E3324600F07122 /* ZSNJoinMultiChannelViewController.m */,
+				84C44F4B28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.h */,
+				84C44F4C28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.m */,
+				8434183528FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.h */,
+				8434183628FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.m */,
+				84CD9CA4290AE0A400C63ED9 /* ZSNAIAECAINSViewController.h */,
+				84CD9CA5290AE0A400C63ED9 /* ZSNAIAECAINSViewController.m */,
+				84C21D9B2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.h */,
+				84C21D9C2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.m */,
+				84C21D9E2935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.h */,
+				84C21D9F2935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.m */,
+				84C21DA1293746F4002C10C4 /* ZSNAudioVideoViewController.h */,
+				84C21DA2293746F4002C10C4 /* ZSNAudioVideoViewController.m */,
+				84A4375729388CB800798950 /* ZSNBoxingView.h */,
+				84A4375829388CB800798950 /* ZSNBoxingView.m */,
+				8413313F29C19B820069D2D4 /* ZSNAudioViewController.h */,
+				8413314029C19B820069D2D4 /* ZSNAudioViewController.m */,
+				844B6E7E29C9AEBA004FD400 /* ZSNSSHeChangyiViewController.h */,
+				844B6E7F29C9AEBA004FD400 /* ZSNSSHeChangyiViewController.m */,
+				844B6E8129C9AECC004FD400 /* ZSNSSHeChangerViewController.h */,
+				844B6E8229C9AECC004FD400 /* ZSNSSHeChangerViewController.m */,
+				8479BF1529E03493003200ED /* ZSNAPILiZiViewController.h */,
+				8479BF1629E03493003200ED /* ZSNAPILiZiViewController.m */,
+				849362C62A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.h */,
+				849362C72A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.m */,
+				847B90E32A0E367400360178 /* ZSNGaoQingViewController.h */,
+				847B90E42A0E367400360178 /* ZSNGaoQingViewController.m */,
+				84F4D4C22A1CB5A500D07074 /* ZSNTestViewController.h */,
+				84F4D4C32A1CB5A500D07074 /* ZSNTestViewController.m */,
+			);
+			path = DemoAPIOCZhaosn;
+			sourceTree = "<group>";
+		};
+		842D61A128D1877A00320665 /* ZSNLibs */ = {
+			isa = PBXGroup;
+			children = (
+				8455F9982A0B7755004E1BC1 /* AgoraAiEchoCancellationExtension.xcframework */,
+				8455F98F2A0B7755004E1BC1 /* AgoraAiNoiseSuppressionExtension.xcframework */,
+				8455F99A2A0B7755004E1BC1 /* AgoraAudioBeautyExtension.xcframework */,
+				8455F98C2A0B7755004E1BC1 /* AgoraClearVisionExtension.xcframework */,
+				8455F9952A0B7755004E1BC1 /* AgoraContentInspectExtension.xcframework */,
+				8455F9962A0B7755004E1BC1 /* AgoraDav1d.xcframework */,
+				8455F9902A0B7755004E1BC1 /* AgoraDrmLoaderExtension.xcframework */,
+				8455F9992A0B7755004E1BC1 /* AgoraFaceDetectionExtension.xcframework */,
+				8455F9942A0B7755004E1BC1 /* Agorafdkaac.xcframework */,
+				8455F9912A0B7755004E1BC1 /* Agoraffmpeg.xcframework */,
+				8455F9972A0B7755004E1BC1 /* AgoraReplayKitExtension.xcframework */,
+				8455F98D2A0B7755004E1BC1 /* AgoraRtcKit.xcframework */,
+				8455F98B2A0B7755004E1BC1 /* AgoraSoundTouch.xcframework */,
+				8455F99B2A0B7755004E1BC1 /* AgoraSpatialAudioExtension.xcframework */,
+				8455F99E2A0B7755004E1BC1 /* AgoraVideoDecoderExtension.xcframework */,
+				8455F9922A0B7755004E1BC1 /* AgoraVideoEncoderExtension.xcframework */,
+				8455F99C2A0B7755004E1BC1 /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+				8455F99D2A0B7755004E1BC1 /* AgoraVideoSegmentationExtension.xcframework */,
+				8455F9932A0B7755004E1BC1 /* video_dec.xcframework */,
+				8455F98E2A0B7755004E1BC1 /* video_enc.xcframework */,
+				842D61A228D187A800320665 /* ZSNLibsTestViewController.h */,
+				842D61A328D187A800320665 /* ZSNLibsTestViewController.m */,
+			);
+			path = ZSNLibs;
+			sourceTree = "<group>";
+		};
+		84FA2E53290C395F004D84EE /* ZSNResource */ = {
+			isa = PBXGroup;
+			children = (
+				849362C42A0394F10075E2D7 /* daojiangxing.mp3 */,
+				8498198D290FBAF300ED91A8 /* longlidiansi_lpb.wav */,
+				8498198A290FB10D00ED91A8 /* ZSNResourceTestViewController.h */,
+				8498198B290FB10D00ED91A8 /* ZSNResourceTestViewController.m */,
+			);
+			path = ZSNResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842D618128D1859600320665 /* DemoAPIOCZhaosn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842D619B28D1859700320665 /* Build configuration list for PBXNativeTarget "DemoAPIOCZhaosn" */;
+			buildPhases = (
+				842D617E28D1859600320665 /* Sources */,
+				842D617F28D1859600320665 /* Frameworks */,
+				842D618028D1859600320665 /* Resources */,
+				8497E43B28D47B080007A650 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAPIOCZhaosn;
+			productName = DemoAPIOCZhaosn;
+			productReference = 842D618228D1859600320665 /* DemoAPIOCZhaosn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842D617A28D1859600320665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					842D618128D1859600320665 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 842D617D28D1859600320665 /* Build configuration list for PBXProject "DemoAPIOCZhaosn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842D617928D1859600320665;
+			productRefGroup = 842D618328D1859600320665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842D618128D1859600320665 /* DemoAPIOCZhaosn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842D618028D1859600320665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498198E290FBAF300ED91A8 /* longlidiansi_lpb.wav in Resources */,
+				849362C52A0394F10075E2D7 /* daojiangxing.mp3 in Resources */,
+				842D619528D1859700320665 /* LaunchScreen.storyboard in Resources */,
+				842D619228D1859700320665 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842D617E28D1859600320665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C21D9D2934A5B2002C10C4 /* ZSNChooseAudioProfileVC.m in Sources */,
+				844B6E8029C9AEBA004FD400 /* ZSNSSHeChangyiViewController.m in Sources */,
+				8413314129C19B820069D2D4 /* ZSNAudioViewController.m in Sources */,
+				84A4375929388CB800798950 /* ZSNBoxingView.m in Sources */,
+				842D618728D1859700320665 /* AppDelegate.m in Sources */,
+				847B90E52A0E367400360178 /* ZSNGaoQingViewController.m in Sources */,
+				849362C82A03FFC80075E2D7 /* ZSNMPMusicPlayerVC.m in Sources */,
+				8434183728FDBC3100E38B22 /* ZSNDaXiaoLiuViewController.m in Sources */,
+				8498198C290FB10D00ED91A8 /* ZSNResourceTestViewController.m in Sources */,
+				842D61A028D186D000320665 /* ZSNFirstViewController.m in Sources */,
+				84CD9CA6290AE0A400C63ED9 /* ZSNAIAECAINSViewController.m in Sources */,
+				84C21DA02935F4FE002C10C4 /* ZSNAudioVerticalAnimationViewController.m in Sources */,
+				842D61A428D187A800320665 /* ZSNLibsTestViewController.m in Sources */,
+				842D61A728D1AB7300320665 /* ZSNVideoBroadcastViewController.m in Sources */,
+				8440339328E3324600F07122 /* ZSNJoinMultiChannelViewController.m in Sources */,
+				842D619828D1859700320665 /* main.m in Sources */,
+				84C21DA3293746F4002C10C4 /* ZSNAudioVideoViewController.m in Sources */,
+				844B6E8329C9AECC004FD400 /* ZSNSSHeChangerViewController.m in Sources */,
+				84C44F4D28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.m in Sources */,
+				84F4D4C42A1CB5A500D07074 /* ZSNTestViewController.m in Sources */,
+				8479BF1729E03493003200ED /* ZSNAPILiZiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842D619328D1859700320665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842D619428D1859700320665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842D619928D1859700320665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoAPIOCZhaosn/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842D619A28D1859700320665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoAPIOCZhaosn/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842D619C28D1859700320665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWK6W4WC7K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoAPIOCZhaosn/PrefixHeader.pch";
+				INFOPLIST_FILE = DemoAPIOCZhaosn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianxi.hahaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842D619D28D1859700320665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWK6W4WC7K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoAPIOCZhaosn/PrefixHeader.pch";
+				INFOPLIST_FILE = DemoAPIOCZhaosn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianxi.hahaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842D617D28D1859600320665 /* Build configuration list for PBXProject "DemoAPIOCZhaosn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842D619928D1859700320665 /* Debug */,
+				842D619A28D1859700320665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842D619B28D1859700320665 /* Build configuration list for PBXNativeTarget "DemoAPIOCZhaosn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842D619C28D1859700320665 /* Debug */,
+				842D619D28D1859700320665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842D617A28D1859600320665 /* Project object */;
+}
