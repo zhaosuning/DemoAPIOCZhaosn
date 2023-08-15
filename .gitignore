@@ -1,0 +1,10 @@
+.DS_Store
+
+Pods
+Podfile.lock
+*.xcworkspace
+xcuserdata
+*.xcuserstate
+*.pyc
+*.ipa
+*.xcframework

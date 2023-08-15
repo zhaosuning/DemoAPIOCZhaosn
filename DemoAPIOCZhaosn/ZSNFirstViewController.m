@@ -24,6 +24,8 @@
 
 #import "ZSNTestViewController.h"
 
+#import "ZSNVideoHeTuViewController.h"
+
 @interface ZSNFirstViewController ()
 
 @end
@@ -87,7 +89,7 @@
     //ZSNAudioVideoViewController *vc = [[ZSNAudioVideoViewController alloc] init];
     
     //ZSNAPILiZiViewController *vc = [[ZSNAPILiZiViewController alloc] init];
-    ZSNMPMusicPlayerVC *vc = [[ZSNMPMusicPlayerVC alloc] init];
+    //ZSNMPMusicPlayerVC *vc = [[ZSNMPMusicPlayerVC alloc] init];
     
     //ZSNGaoQingViewController *vc = [[ZSNGaoQingViewController alloc] init];
 //    ZSNTestViewController *vc = [[ZSNTestViewController a]];
@@ -96,6 +98,8 @@
     
     
     //ZSNTestViewController *vc = [[ZSNTestViewController alloc] init];
+    
+    ZSNVideoHeTuViewController *vc = [[ZSNVideoHeTuViewController alloc] init];
     
     [self.navigationController pushViewController:vc animated:YES];
     
