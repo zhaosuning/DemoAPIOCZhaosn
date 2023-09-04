@@ -468,11 +468,11 @@
 
 //音量提示回调
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine reportAudioVolumeIndicationOfSpeakers:(NSArray<AgoraRtcAudioVolumeInfo *> *)speakers totalVolume:(NSInteger)totalVolume {
-    //NSLog(@"打印了 reportAudioVolumeIndicationOfSpeakers 用户音量提示回调");
+    NSLog(@"打印了 reportAudioVolumeIndicationOfSpeakers 用户音量提示回调 speakers = %@ ,totalVolume = %ld",speakers,(long)totalVolume);
 }
 
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine activeSpeaker:(NSUInteger)speakerUid {
-    //NSLog(@"打印了 监测到远端最活跃用户回调");
+    NSLog(@"打印了 监测到远端最活跃用户回调 speakerUid = %lu",(unsigned long)speakerUid);
 }
 
 //
