@@ -150,10 +150,15 @@
     self.mediaPlayerKit = [self.agoraKit createMediaPlayerWithDelegate:self];
     [self.mediaPlayerKit setPlayerOption:@"play_pos_change_callback" value:100];
     //NSString *strmusicurl = [[NSBundle mainBundle] pathForResource:@"daojiangxing" ofType:@"mp3"];
-    //NSString *strmusicurl = @"rtmp://push.webdemo.agoraio.cn/lbhd/zsncna";
+    //NSString *strmusicurl = @"rtmp://pull.webdemo.agoraio.cn/lbhd/zsncna";
+    NSString *strmusicurl = @"rtmp://examplepull.agoramdn.com/live/reall";
+    [self.mediaPlayerKit setRenderMode:AgoraMediaPlayerRenderModeHidden];
+    //[self.mediaPlayerKit setRenderMode:AgoraMediaPlayerRenderModeFit];
     [self.mediaPlayerKit setView:self.localView];
     //NSString *strmusicurl = @"https://agora-adc-artifacts.s3.cn-north-1.amazonaws.com.cn/resources/sample.mp4";
-    NSString *strmusicurl = @"rtmp://l6hpmqy9874fd0rrq.boin.fun/live/2030726382?token=51a1e4b528b0e5cf76e8b6b2293d4998&t=1694539852";
+    //NSString *strmusicurl = @"rtmp://l6hpmqy9874fd0rrq.boin.fun/live/2030726382?token=51a1e4b528b0e5cf76e8b6b2293d4998&t=1694539852";
+    
+    //NSString *strmusicurl = @"rtmps://examplepull.agoramdn.com/live/reall";
     //NSString *strmusicurl = @"";
     [self.mediaPlayerKit open:strmusicurl startPos:0];
 }

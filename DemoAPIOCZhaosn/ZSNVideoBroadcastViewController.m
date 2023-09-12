@@ -44,7 +44,7 @@
     
     //UIButton 初始化建议用buttonWithType
     UIButton *btnBack = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnBack.frame = CGRectMake(20 , 45, 70, 40);
+    btnBack.frame = CGRectMake(20 , 30, 70, 40);
     [btnBack setTitle:@"返回" forState:UIControlStateNormal];
     [btnBack setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     btnBack.backgroundColor = [UIColor greenColor];
@@ -66,40 +66,68 @@
     [viewbg addSubview:self.remoteView];
     
     UIButton *btnMuteLocalAudio = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnMuteLocalAudio.frame = CGRectMake(20, 100, 200, 40);
+    btnMuteLocalAudio.frame = CGRectMake(0, 70, 150, 30);
     [btnMuteLocalAudio setTitle:@"MuteLocalAudio YES" forState:UIControlStateNormal];
     [btnMuteLocalAudio setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     btnMuteLocalAudio.backgroundColor = [UIColor greenColor];
-    btnMuteLocalAudio.titleLabel.font = [UIFont systemFontOfSize:17.0];
+    btnMuteLocalAudio.titleLabel.font = [UIFont systemFontOfSize:15.0];
     [btnMuteLocalAudio addTarget:self action:@selector(btnMuteLocalAudioAction:) forControlEvents:UIControlEventTouchUpInside];
     [viewbg addSubview:btnMuteLocalAudio];
     
     UIButton *btnMuteLocalAudioNO = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnMuteLocalAudioNO.frame = CGRectMake(20, 160, 200, 40);
+    btnMuteLocalAudioNO.frame = CGRectMake(0, 110, 150, 30);
     [btnMuteLocalAudioNO setTitle:@"MuteLocalAudio NO" forState:UIControlStateNormal];
     [btnMuteLocalAudioNO setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     btnMuteLocalAudioNO.backgroundColor = [UIColor greenColor];
-    btnMuteLocalAudioNO.titleLabel.font = [UIFont systemFontOfSize:17.0];
+    btnMuteLocalAudioNO.titleLabel.font = [UIFont systemFontOfSize:15.0];
     [btnMuteLocalAudioNO addTarget:self action:@selector(btnMuteLocalAudioNOAction:) forControlEvents:UIControlEventTouchUpInside];
     [viewbg addSubview:btnMuteLocalAudioNO];
     
     UIButton *btnRoleBroadcaster = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnRoleBroadcaster.frame = CGRectMake(20, 220, 200, 40);
+    btnRoleBroadcaster.frame = CGRectMake(0, 150, 150, 30);
     [btnRoleBroadcaster setTitle:@"Role Broadcaster" forState:UIControlStateNormal];
     [btnRoleBroadcaster setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     btnRoleBroadcaster.backgroundColor = [UIColor greenColor];
-    btnRoleBroadcaster.titleLabel.font = [UIFont systemFontOfSize:17.0];
+    btnRoleBroadcaster.titleLabel.font = [UIFont systemFontOfSize:15.0];
     [btnRoleBroadcaster addTarget:self action:@selector(btnRoleBroadcasterAction:) forControlEvents:UIControlEventTouchUpInside];
     [viewbg addSubview:btnRoleBroadcaster];
     
     UIButton *btnRoleAudience = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnRoleAudience.frame = CGRectMake(20, 280, 200, 40);
+    btnRoleAudience.frame = CGRectMake(0, 190, 150, 30);
     [btnRoleAudience setTitle:@"Role Audience" forState:UIControlStateNormal];
     [btnRoleAudience setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     btnRoleAudience.backgroundColor = [UIColor greenColor];
-    btnRoleAudience.titleLabel.font = [UIFont systemFontOfSize:17.0];
+    btnRoleAudience.titleLabel.font = [UIFont systemFontOfSize:15.0];
     [btnRoleAudience addTarget:self action:@selector(btnRoleAudienceAction:) forControlEvents:UIControlEventTouchUpInside];
     [viewbg addSubview:btnRoleAudience];
+    
+    
+    UIButton *btnSwitchCamera = [UIButton buttonWithType:UIButtonTypeCustom];
+    btnSwitchCamera.frame = CGRectMake(0, 230, 150, 30);
+    [btnSwitchCamera setTitle:@"switchCamera" forState:UIControlStateNormal];
+    [btnSwitchCamera setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    btnSwitchCamera.backgroundColor = [UIColor greenColor];
+    btnSwitchCamera.titleLabel.font = [UIFont systemFontOfSize:15.0];
+    [btnSwitchCamera addTarget:self action:@selector(btnSwitchCameraAction:) forControlEvents:UIControlEventTouchUpInside];
+    [viewbg addSubview:btnSwitchCamera];
+    
+    UIButton *btnVideoEncoderConfig = [UIButton buttonWithType:UIButtonTypeCustom];
+    btnVideoEncoderConfig.frame = CGRectMake(0, 270, 150, 30);
+    [btnVideoEncoderConfig setTitle:@"VideoEncoderConfig1" forState:UIControlStateNormal];
+    [btnVideoEncoderConfig setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    btnVideoEncoderConfig.backgroundColor = [UIColor greenColor];
+    btnVideoEncoderConfig.titleLabel.font = [UIFont systemFontOfSize:15.0];
+    [btnVideoEncoderConfig addTarget:self action:@selector(btnVideoEncoderConfigAction:) forControlEvents:UIControlEventTouchUpInside];
+    [viewbg addSubview:btnVideoEncoderConfig];
+    
+    UIButton *btnVideoMirrorModeDisabled = [UIButton buttonWithType:UIButtonTypeCustom];
+    btnVideoMirrorModeDisabled.frame = CGRectMake(0, 310, 150, 30);
+    [btnVideoMirrorModeDisabled setTitle:@"VideoMirrorModeDisabled" forState:UIControlStateNormal];
+    [btnVideoMirrorModeDisabled setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    btnVideoMirrorModeDisabled.backgroundColor = [UIColor greenColor];
+    btnVideoMirrorModeDisabled.titleLabel.font = [UIFont systemFontOfSize:15.0];
+    [btnVideoMirrorModeDisabled addTarget:self action:@selector(btnVideoMirrorModeDisabledAction:) forControlEvents:UIControlEventTouchUpInside];
+    [viewbg addSubview:btnVideoMirrorModeDisabled];
     
     [self initAgoraRtcInfo];
 }
@@ -132,9 +160,9 @@
     config.appId = AppId;
     config.channelProfile = AgoraChannelProfileLiveBroadcasting;
     self.agoraKit = [AgoraRtcEngineKit sharedEngineWithConfig:config delegate:self];
-    [self.agoraKit setClientRole:AgoraClientRoleAudience];
+    [self.agoraKit setClientRole:AgoraClientRoleBroadcaster];
     
-    [self.agoraKit setAudioProfile:AgoraAudioProfileDefault];
+    [self.agoraKit setAudioProfile:AgoraAudioProfileMusicHighQuality];
     [self.agoraKit setAudioScenario:AgoraAudioScenarioGameStreaming];
     
     [self.agoraKit enableAudio];
@@ -153,7 +181,7 @@
     options.publishCameraTrack = YES;
     options.publishMicrophoneTrack = YES;
     //options.clientRoleType = AgoraClientRoleBroadcaster;
-   int result = [self.agoraKit joinChannelByToken:Token channelId:channelname uid:0 mediaOptions:options joinSuccess:^(NSString * _Nonnull channel, NSUInteger uid, NSInteger elapsed) {
+   int result = [self.agoraKit joinChannelByToken:Token channelId:channelname uid:200 mediaOptions:options joinSuccess:^(NSString * _Nonnull channel, NSUInteger uid, NSInteger elapsed) {
         NSLog(@"打印了 joinChannelByToken 成功");
        [self showLocalVideo];
     }];
@@ -175,16 +203,42 @@
     
 }
 
+
+-(void)btnSwitchCameraAction:(UIButton *)button {
+    NSLog(@"打印了 点击了 btnSwitchCameraAction");
+    [self.agoraKit switchCamera];
+}
+
+-(void)btnVideoEncoderConfigAction:(UIButton *)button {
+    NSLog(@"打印了 点击了 btnSwitchCameraAction");
+    
+    
+    AgoraVideoEncoderConfiguration *videoConfig = [[AgoraVideoEncoderConfiguration alloc] initWithWidth:1280 height:720 frameRate:AgoraVideoFrameRateFps15 bitrate:AgoraVideoBitrateStandard orientationMode:AgoraVideoOutputOrientationModeAdaptative mirrorMode:AgoraVideoMirrorModeEnabled];
+    [self.agoraKit setVideoEncoderConfiguration:videoConfig];
+    
+}
+
+-(void)btnVideoMirrorModeDisabledAction:(UIButton *)button {
+    NSLog(@"打印了 点击了 btnSwitchCameraAction");
+    
+    
+    AgoraVideoEncoderConfiguration *videoConfig = [[AgoraVideoEncoderConfiguration alloc] initWithWidth:1280 height:720 frameRate:AgoraVideoFrameRateFps15 bitrate:AgoraVideoBitrateStandard orientationMode:AgoraVideoOutputOrientationModeAdaptative mirrorMode:AgoraVideoMirrorModeAuto];
+    [self.agoraKit setVideoEncoderConfiguration:videoConfig];
+    
+}
+
 -(void)btnMuteLocalAudioAction:(UIButton *) button {
     NSLog(@"打印了 点击了 btnMuteLocalAudioAction");
     
-    [self.agoraKit muteLocalAudioStream:YES];
+    //[self.agoraKit muteLocalAudioStream:YES];
+    [self.agoraKit setRemoteRenderMode:100 mode:AgoraVideoRenderModeHidden mirror:AgoraVideoMirrorModeEnabled];
 }
 
 -(void)btnMuteLocalAudioNOAction:(UIButton *)button {
     NSLog(@"打印了 点击了 btnMuteLocalAudioAction");
     
-    [self.agoraKit muteLocalAudioStream:NO];
+    //[self.agoraKit muteLocalAudioStream:NO];
+    [self.agoraKit setLocalRenderMode:AgoraVideoRenderModeHidden mirror:AgoraVideoMirrorModeEnabled];
 }
 
 -(void)btnRoleBroadcasterAction :(UIButton *) button {
