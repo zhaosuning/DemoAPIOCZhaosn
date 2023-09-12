@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84083E002AAE0ABB00132890 /* ZSNVideoReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84083DFF2AAE0ABB00132890 /* ZSNVideoReceiveViewController.m */; };
 		8413314129C19B820069D2D4 /* ZSNAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413314029C19B820069D2D4 /* ZSNAudioViewController.m */; };
 		84251B502A736C00002F2024 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84251B3B2A736BF5002F2024 /* AgoraAiEchoCancellationExtension.xcframework */; };
 		84251B512A736C00002F2024 /* AgoraAiEchoCancellationExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84251B3B2A736BF5002F2024 /* AgoraAiEchoCancellationExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -109,6 +110,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84083DFE2AAE0ABB00132890 /* ZSNVideoReceiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNVideoReceiveViewController.h; sourceTree = "<group>"; };
+		84083DFF2AAE0ABB00132890 /* ZSNVideoReceiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNVideoReceiveViewController.m; sourceTree = "<group>"; };
 		8413313F29C19B820069D2D4 /* ZSNAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSNAudioViewController.h; sourceTree = "<group>"; };
 		8413314029C19B820069D2D4 /* ZSNAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSNAudioViewController.m; sourceTree = "<group>"; };
 		84251B282A736BF4002F2024 /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
@@ -276,6 +279,8 @@
 				84F4D4C32A1CB5A500D07074 /* ZSNTestViewController.m */,
 				844C64462A73725200BA6031 /* ZSNVideoHeTuViewController.h */,
 				844C64472A73725200BA6031 /* ZSNVideoHeTuViewController.m */,
+				84083DFE2AAE0ABB00132890 /* ZSNVideoReceiveViewController.h */,
+				84083DFF2AAE0ABB00132890 /* ZSNVideoReceiveViewController.m */,
 			);
 			path = DemoAPIOCZhaosn;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				842D61A728D1AB7300320665 /* ZSNVideoBroadcastViewController.m in Sources */,
 				8440339328E3324600F07122 /* ZSNJoinMultiChannelViewController.m in Sources */,
 				842D619828D1859700320665 /* main.m in Sources */,
+				84083E002AAE0ABB00132890 /* ZSNVideoReceiveViewController.m in Sources */,
 				84C21DA3293746F4002C10C4 /* ZSNAudioVideoViewController.m in Sources */,
 				844B6E8329C9AECC004FD400 /* ZSNSSHeChangerViewController.m in Sources */,
 				84C44F4D28F6A47C00BFBFF8 /* ZSNMultiChannelViewController.m in Sources */,
