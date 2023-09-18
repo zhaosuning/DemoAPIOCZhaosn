@@ -151,7 +151,8 @@
     [self.mediaPlayerKit setPlayerOption:@"play_pos_change_callback" value:100];
     //NSString *strmusicurl = [[NSBundle mainBundle] pathForResource:@"daojiangxing" ofType:@"mp3"];
     //NSString *strmusicurl = @"rtmp://pull.webdemo.agoraio.cn/lbhd/zsncna";
-    NSString *strmusicurl = @"rtmp://examplepull.agoramdn.com/live/reall";
+    //NSString *strmusicurl = @"rtmp://examplepull.agoramdn.com/live/reall";
+    NSString *strmusicurl = @"rtmp://pull.webdemo.agoraio.cn/lbhd/test";
     [self.mediaPlayerKit setRenderMode:AgoraMediaPlayerRenderModeHidden];
     //[self.mediaPlayerKit setRenderMode:AgoraMediaPlayerRenderModeFit];
     [self.mediaPlayerKit setView:self.localView];
