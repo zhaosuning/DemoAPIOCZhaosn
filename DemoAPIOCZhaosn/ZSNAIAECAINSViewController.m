@@ -267,6 +267,15 @@
 //    [self.agoraKit setParameters:[NSString stringWithFormat:@"%@",@"{\"che.audio.nsng.statisticalbound\":0}"]];
 //    [self.agoraKit setParameters:[NSString stringWithFormat:@"%@",@"{\"che.audio.nsng.finallowermask\":0}"]];
     
+    //65535
+    
+    
+    
+    //获取debug log
+    
+    [self.agoraKit setParameters:@"{\"rtc.log_filter\":65535}"];
+    [self.agoraKit setParameters:@"{\"rtc.log_size\":999999999}"];
+    
 }
 
 
